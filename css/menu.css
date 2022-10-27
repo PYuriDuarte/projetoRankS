@@ -1,0 +1,152 @@
+/*#menu{
+  margin-top: 0px;
+  height: 40px;
+  background-color: #272727;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+.tags a{
+  color: white;
+  text-decoration: none;
+  padding: 2px 50px;
+}
+.tags a:hover{
+  background-color: #494646;
+  font-size: 17px;
+  text-decoration: underline;
+}
+.entrada{
+  position: fixed;
+  width: 100%;
+}*/
+ul{
+  background-color: #272727;
+  list-style-type: none;
+  padding: 0%;
+  margin: 0%;
+  overflow: hidden;
+}
+
+li a, .dropbutton{
+  display: inline-block;
+  color: white;
+  padding: 14px 72px;
+  text-decoration: none;
+  text-align: center;
+  margin-left: 30%;
+}
+ul li a:hover, .dropDown:hover .dropButton{
+  background: #333232;
+  font-size: 17px;
+  text-decoration: underline;
+}
+li.dropDown{
+  display: inline-block;
+}
+.dropContent1{
+  display: none;
+  position: absolute;
+  background-color: white;
+  width: 216px;
+  margin-left: 4.95%;
+}
+.dropContent2{
+  display: none;
+  position: absolute;
+  background-color: white;
+  width: 226px;
+  margin-left: 5.1%;
+}
+.dropContent3{
+  display: none;
+  position: absolute;
+  background-color: white;
+  width: 226px;
+  margin-left: 5.15%;
+}
+.dropContent4{
+  display: none;
+  position: absolute;
+  background-color: white;
+  width: 215px;
+  margin-left: 4.95%;
+}
+.dropContent5{
+  display: none;
+  position: absolute;
+  background-color: white;
+  width: 287px;
+  margin-left: 6.55%;
+}
+.dropDown:hover .dropContent1{
+  display: block;
+}
+.dropDown:hover .dropContent2{
+  display: block;
+}
+.dropDown:hover .dropContent3{
+  display: block;
+}
+.dropDown:hover .dropContent4{
+  display: block;
+}
+.dropDown:hover .dropContent5{
+  display: block;
+}
+.dropContent1 a:hover{
+  background-color: #333232;
+  color: white;
+}
+.dropContent2 a:hover{
+  background-color: #333232;
+  color: white;
+}
+.dropContent3 a:hover{
+  background-color: #333232;
+  color: white;
+}
+.dropContent4 a:hover{
+  background-color: #333232;
+  color: white;
+}
+.dropContent5 a:hover{
+  background-color: #333232;
+  color: white;
+}
+.dropContent1 a{
+  color: black;
+  display: block;
+  text-align: center;
+  padding: 15px;
+  margin-left: 0;
+}
+.dropContent2 a{
+  color: black;
+  display: block;
+  text-align: center;
+  padding: 15px;
+  margin-left: 0;
+}
+.dropContent3 a{
+  color: black;
+  display: block;
+  text-align: center;
+  padding: 15px;
+  margin-left: 0;
+}
+.dropContent4 a{
+  color: black;
+  display: block;
+  text-align: center;
+  padding: 15px;
+  margin-left: 0;
+}
+.dropContent5 a{
+  color: black;
+  display: block;
+  text-align: center;
+  padding: 15px;
+  margin-left: 0;
+}
