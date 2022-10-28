@@ -37,6 +37,10 @@ footer{
 }
 .writingBox{
   flex: 30;
+  background: var(--background-color3);
+}
+.writingBox::placeholder{
+  color: var(red--color-text6);
 }
 .submitForm{
   margin: 10px 3% 10px 10px;

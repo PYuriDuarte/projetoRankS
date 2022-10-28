@@ -1,0 +1,57 @@
+
+	header.css
+.elements{
+  background: #333232;		
+}
+::-webkit-scrollbar-thumb{
+  background-color: #333232;
+}
+
+	nav.css
+body{
+  background: #333232;
+}
+.login a{
+  color: #272727;
+}
+
+	footer.css
+.writingBox{
+  background: #494646;
+}
+.writingBox::placeholder{
+  color: rgb(190, 190, 190);
+}
+
+	style.css
+.card{
+  background-color: #333232;
+}
+.name{
+  color: #ffffff;
+}
+.description{
+  color: #fff;
+}
+.swiper-navBtn{
+ color: #ffffff !important; 
+}
+
+	section.css
+#cheap{
+  color: #ffffff;
+}
+#books{
+  color: #ffffff;
+}
+.head{
+  color: #ffffff;
+}
+#cheap img{
+  background-color: #272727;
+}
+#books img{
+  background-color: #272727;
+}
+
+

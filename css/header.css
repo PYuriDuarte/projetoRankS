@@ -1,9 +1,33 @@
+:root{
+  --color-text1: #fff;
+  --color-text2: #ffffff;
+  --color-text3: #272727;
+  --color-text4: #494646;
+  --color-text5: rgb(190, 190, 190);
+  --color-text6: gray;
+  
+  --background-color1: rgb(224, 224, 224);
+  --background-color2: #f2f2ff;
+  --background-color3: #ffffff;
+  --background-color4: #333232;
+  --background-colorBody: #f2f2ff;
+}
+.darkMode{
+  --color-text1: #fff;
+  --color-text2: #ffffff;
+  --color-text3: #272727;
+  --color-text4: rgb(190, 190, 190);
+  
+  --background-color1: #494646;
+  --background-color2: #272727;
+  --background-color3: #333232;
+  --background-colorBody: #161b25;
+}
 .imgheader img{
   width: 80%;
   margin: 10px 10%;
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)
-
 }
 #benefits{
   background: none;
@@ -13,7 +37,7 @@
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
-  background: rgb(224, 224, 224);
+  background: var(--background-color1);
   width: 80%;
   height: 50px;
   border-radius: 10px;
@@ -32,7 +56,7 @@
 }
 ::-webkit-scrollbar-thumb{
   width: 10px;
-  background-color: rgb(224, 224, 224);
+  background: var(--background-color1);
   border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb:hover{
