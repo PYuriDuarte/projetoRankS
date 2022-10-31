@@ -1,9 +1,9 @@
 #cheap{
   text-align: center;
-  color: var(--color-text4);
+  color: var(--color-text-cheap);
 }
 #cheap img{
-  background: var(--background-color2);
+  background: var(--background-color-cheap-img);
   width: 40%;
   padding: 10px;
   border-radius: 30px;
@@ -12,10 +12,10 @@
 }
 #books{
   text-align: center;
-  color: var(--color-text4);
+  color: var(--color-text-books);
 }
 #books img{
-  background: var(--background-color2);
+  background: var(--background-color-cheap-img);
   width: 40%;
   height: 514px;
   padding: 10px;
@@ -121,7 +121,7 @@
   display: flex;
   flex-flow: row wrap;
   align-items: center;
-  color: var(--color-text4);
+  color: var(--color-text-head);
   justify-content: center;
 }
 .head a{

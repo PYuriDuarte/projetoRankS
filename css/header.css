@@ -1,27 +1,43 @@
 :root{
-  --color-text1: #fff;
-  --color-text2: #ffffff;
-  --color-text3: #272727;
-  --color-text4: #494646;
-  --color-text5: rgb(190, 190, 190);
-  --color-text6: gray;
+
+  --color-text-swiper-navBtn: #272727;
+  --color-text-login-a: #272727;
+  --color-text-swiper-theme: #272727;
+  --color-text-books: #494646;
+  --color-text-head: #494646;
+  --color-text-cheap: #494646;
+  --color-text-description: #494646;
+  --color-text-name: #494646;
+  --color-text-elements-li: #222;
+  --color-text-writingBox-placeholder: gray;
   
-  --background-color1: rgb(224, 224, 224);
-  --background-color2: #f2f2ff;
-  --background-color3: #ffffff;
-  --background-color4: #333232;
+  --background-color-scrollbar-thumb: rgb(224, 224, 224);
+  --background-color-elements: rgb(224, 224, 224);
+  --background-color-books-img: #f2f2ff;
+  --background-color-cheap-img: #f2f2ff;
+  --background-color-card: #ffffff;
+  --background-color-writingBox: #ffffff;
   --background-colorBody: #f2f2ff;
 }
 .darkMode{
-  --color-text1: #fff;
-  --color-text2: #ffffff;
-  --color-text3: #272727;
-  --color-text4: rgb(190, 190, 190);
+  --color-text-swiper-navBtn: #ffffff;
+  --color-text-login-a: #ffffff;
+  --color-text-swiper-theme: #fff;
+  --color-text-books: #ffffff;
+  --color-text-head: #ffffff;
+  --color-text-cheap: #ffffff;
+  --color-text-description: #fff;
+  --color-text-name: #ffffff;
+  --color-text-elements-li: #ffffff;
+  --color-text-writingBox-placeholder: rgb(190, 190, 190);
   
-  --background-color1: #494646;
-  --background-color2: #272727;
-  --background-color3: #333232;
-  --background-colorBody: #161b25;
+  --background-color-scrollbar-thumb: #333232;
+  --background-color-elements: #333232;
+  --background-color-books-img: #272727;
+  --background-color-cheap-img: #272727;
+  --background-color-card: #333232;
+  --background-color-writingBox: #333232;
+  --background-colorBody: #23232c;
 }
 .imgheader img{
   width: 80%;
@@ -32,23 +48,47 @@
 #benefits{
   background: none;
 }
+#elementsImg1{
+  position: absolute;
+  left: 160px;
+  display: none;
+}
+#elementsImg2{
+  position: absolute;
+  left: 335px;
+  display: none;
+}
+#elementsImg3{
+  position: absolute;
+  left: 497px;
+  display: none;
+}
+#elementsImg4{
+  position: absolute;
+  left: 705px;
+  display: none;
+}
+#elementsImg5{
+  position: absolute;
+  left: 992px;
+  display: none;
+}
 .elements{
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
-  background: var(--background-color1);
+  background: var(--background-color-elements);
   width: 80%;
   height: 50px;
   border-radius: 10px;
   margin: 25px 10%;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)
-
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 .elements li{
-  padding-left: 10px;
-  padding-right: 5%;
+  padding: 0 5% 0 10px;
   list-style-type: none;
+  color: var(--color-text-elements-li);
 }
 ::-webkit-scrollbar{
   width: 10px;
@@ -56,7 +96,7 @@
 }
 ::-webkit-scrollbar-thumb{
   width: 10px;
-  background: var(--background-color1);
+  background: var(--background-color-scrollbar-thumb);
   border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb:hover{
