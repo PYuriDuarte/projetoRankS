@@ -5,29 +5,43 @@
 body{
   background: var(--background-colorBody);
   margin: 0%;
+  padding: 0%;
   font-family: 'Noto Sans Mono', monospace;
 }
-/*.nav-top{
-  background-color: blue;
+.nav-top{
+  background-color: #272727;
+  position: relative;
   display: flex;
-  flex-flow: row wrap;
-  height: 28px;
-  justify-content: center;
-  align-content: center;
+  flex-flow: row;
+  height: 20px;
   width: 100%;
+  justify-content: center;
+  align-content: center; 
 }
-.nav-left h4{
-  flex: 80%;
-  background-color: black;
-  color: white;
-  height: 25px;
+.switch{
+  flex: 15%;
+}
+.nav-left{
+  flex: 30%;
+  background: blueviolet;
+}
+.nav-left p{
+  margin-top: 1px;
+}
+.nav-center{
+  flex: 30%;
+  background: rgb(43, 226, 104);
+}
+.nav-center p{
+  margin-top: 1px;
 }
 .nav-right{
-  flex: 20%;
-  background-color: blueviolet;
-  color: white;
-  height: 25px;
-}*/
+  flex: 25%;
+  background: rgb(198, 226, 43);
+}
+.nav-right p{
+  margin-top: 1px;
+}
 #navbar{
   display: flex;
   flex-flow: row wrap;
@@ -44,13 +58,13 @@ body{
 #icoTop2{
   position: absolute;
   left: 1152px;
-  top: 80px;
+  top: 67px;
   display: none;
 }
 #icoTopLogo{
   position: absolute;
   left: 550px;
-  top: 33px;
+  top: 20px;
   display: none;
 }
 .logo{
