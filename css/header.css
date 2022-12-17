@@ -15,20 +15,20 @@
   --background-color-elements: rgb(224, 224, 224);
   --background-color-books-img: #f2f2ff;
   --background-color-cheap-img: #f2f2ff;
-  --background-color-card: #ffffff;
-  --background-color-writingBox: #ffffff;
+  --background-color-card: #fff;
+  --background-color-writingBox: #fff;
   --background-colorBody: #f2f2ff;
 }
 .darkMode{
-  --color-text-swiper-navBtn: #ffffff;
-  --color-text-login-a: #ffffff;
+  --color-text-swiper-navBtn: #fff;
+  --color-text-login-a: #fff;
   --color-text-swiper-theme: #fff;
-  --color-text-books: #ffffff;
-  --color-text-head: #ffffff;
-  --color-text-cheap: #ffffff;
+  --color-text-books: #fff;
+  --color-text-head: #fff;
+  --color-text-cheap: #fff;
   --color-text-description: #fff;
-  --color-text-name: #ffffff;
-  --color-text-elements-li: #ffffff;
+  --color-text-name: #fff;
+  --color-text-elements-li: #fff;
   --color-text-writingBox-placeholder: rgb(190, 190, 190);
   
   --background-color-scrollbar-thumb: #333232;
